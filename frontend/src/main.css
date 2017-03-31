@@ -1,0 +1,21 @@
+@import "./common-assets/styles/bootstrap.css";
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
+
+@font-face {
+    font-family: comic;
+    src: url("./common-assets/fonts/comic.ttf");
+}
+
+body {
+    min-width: 320px;
+    min-height: 240px;
+//  font-family: 'Roboto', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+}
