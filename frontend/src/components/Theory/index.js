@@ -6,22 +6,6 @@ import TheoryVerbsTbl from "../TheoryVerbsTbl"
 import "./style.css"
 
 export default class Theory extends Component {
-    state = {
-        sortField: "ALPHABET",                      //поле по якому портується таблиця
-        sortDirection: "SORT_ASC",                  //напрям сортування SORT_ASC/SORT_DESC
-        selectedItems: {},                          //які елементи обрано для тесту
-        // activePortion: 0
-    };
-
-    // handlePaginationPageSelect = (pageNum) => {
-    //     this.setState({ activePortion: pageNum });
-    // };
-
-    onSortDirectionChange = (newVal) => this.setState({sortDirection: newVal});
-
-    onSortFieldChange = (newVal) => this.setState({sortField: newVal});
-
-
     render() {
         let componentClasssName = classNames({
             "hidden": !this.props.show,
@@ -73,16 +57,16 @@ export default class Theory extends Component {
                 <p className="text-center">
                     Сортування: {" "}
                     <select
-                        value={this.state.sortDirection}
-                        onChange={this.onSortDirectionChange}
+                        value={this.props.sortDirection}
+                        onChange={this.props.onSortDirectionChange}
                         className="input-sm"
                     >
                         <option value="SORT_ASC" title="За зростанням"> ↓ </option>
                         <option value="SORT_DESC" title="За спаданням"> ↑ </option>
                     </select>
                     <select
-                        value={this.state.sortField}
-                        onChange={this.onSortFieldChange}
+                        value={this.props.sortField}
+                        onChange={this.props.onSortFieldChange}
                         className="input-sm"
                     >
                         <option value="ALPHABET"> По алфавіту </option>
@@ -91,19 +75,8 @@ export default class Theory extends Component {
                 </p>
                 <TheoryVerbsTbl
                     wordsDict={this.props.wordsDict}
-
-                    occupationGroupList={this.props.occupationGroupList}
-                    clarifiedOccupationList={this.props.clarifiedOccupationList}
-                    clarificationList={this.props.clarificationList}
-                    sortDirection={this.state.sortDirection}
-                    sortField={this.state.sortField}
-                    expandedItems={this.state.expandedItems}
-                    onEditItem={this.props.onEditItem}
-                    onDeleteItem={this.handleDeleteItemShowingModal}
-                    onToggleExpandItem={this.handleToggleExpandItem}
-                    triggerSorting={this.triggerSorting}
-                    isDeletingOccupation={this.props.isDeletingOccupation}
-                    deletingItem={this.state.deletingItem}
+                    selectedItems={this.props.selectedItems}
+                    onToggleSelectItem={this.props.onToggleSelectItem}
                 />
                 <p className="text-center">
                     <button

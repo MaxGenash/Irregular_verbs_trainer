@@ -4,8 +4,6 @@ import "./style.css"
 
 export default class TheoryVerbsTbl extends Component {
     render() {
-        // console.log("wordsDict = ", this.props.wordsDict);
-
         let rows = this.props.wordsDict.map((el, i) => {
             let cwRate = (el.wrong && "-" + el.wrong || 0) + " / " + (el.correct && "+" + el.correct || 0);
             return (
@@ -31,7 +29,7 @@ export default class TheoryVerbsTbl extends Component {
                             №
                         </th>
                         <th>
-                            Инфинитив
+                            Інфінитив
                         </th>
                         <th>
                             Past Simple

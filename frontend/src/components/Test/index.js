@@ -1,18 +1,32 @@
 import React, { Component, PropTypes } from 'react'
 import classNames from "classnames"
 
+import TestForm from "../TestForm"
+import TestResults from "../TestResults"
+import "./style.css"
+
+function TestBody(props) {
+    if(props.testIsFinished)
+        return (
+            <TestResults
+                goBackToTheory={props.goBackToTheory}
+                testResults={props.testResults}
+            />
+        );
+    else
+        return (
+            <TestForm
+                goBackToTheory={props.goBackToTheory}
+                testData={props.testData}
+                onTestFormSubmit={props.onTestFormSubmit}
+            />
+        );
+}
+
 export default class Test extends Component {
-    state = {
-
-    };
-
     componentDidMount() {
         //this.context.router.setRouteLeaveHook(this.props.route, this.routerWillLeave);
     }
-
-    handleSubmit = (e) => {
-        e.preventDefault();
-    };
 
     // routerWillLeave = () => {
     //     let answer = window.confirm('Ви впевнені?');
@@ -27,14 +41,8 @@ export default class Test extends Component {
 
         return (
             <div className={componentClasssName}>
-                <h1>Test</h1>
-                <button
-                    type="button"
-                    onClick={this.props.goBackToTheory}
-                    className="btn btn-default"
-                >
-                    Повернутися до теорії
-                </button>
+                <h1 className="text-center"> Тест </h1>
+                <TestBody {...this.props} />
             </div>
         );
     }
