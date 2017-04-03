@@ -1,0 +1,27 @@
+  .header-menu-navbar {
+    margin: 0 auto;
+    font-size: 1.2em;
+  }
+
+    .header-menu-navbar .header-menu-item {
+      float: left;
+    }
+
+      .header-menu-navbar .header-menu-item > a {
+        line-height: 2.6em;
+      }
+
+
+@media (max-width: 768px) {
+    .header-menu-navbar  {
+      margin: 0;
+
+    }
+      .header-menu-item {
+        float: right;
+
+      }
+        .header-menu-item  > a {
+          line-height: 1em;
+        }
+}

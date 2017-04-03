@@ -1,0 +1,10 @@
+.header-menu {
+    border-bottom: 1px solid #ddd;
+}
+
+    .header-menu-inner {
+        align-items: stretch;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }

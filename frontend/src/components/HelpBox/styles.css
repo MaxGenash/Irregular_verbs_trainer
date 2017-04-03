@@ -1,0 +1,31 @@
+.accordion--help {
+
+}
+
+.accordion--help .panel-heading {
+
+}
+
+.accordion--help .panel-heading a {
+    display: block;
+    margin: -10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion--help .panel-body {
+
+}
+
+.accordion--help .panel-body p {
+    margin: 0 auto;
+    text-indent: 15px;
+}
+
+.accordion--help .panel-body .fa {
+    text-indent: 0;
+}
+
+.accordion--help .panel-body ul {
+    margin: 0 auto;
+}

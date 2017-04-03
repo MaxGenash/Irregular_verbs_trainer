@@ -1,4 +1,4 @@
-@import "./common-assets/styles/bootstrap.css";
+@import "common-assets/styles/bootstrap.css";
 @import "../../node_modules/font-awesome/css/font-awesome.min.css";
 
 @font-face {
@@ -9,7 +9,7 @@
 body {
     min-width: 320px;
     min-height: 240px;
-//  font-family: 'Roboto', sans-serif;
+    background: #F8F8F8 url("./common-assets/img/bg3.png") repeat;
 }
 
 
@@ -18,4 +18,8 @@ body {
         padding-right: 3px;
         padding-left: 3px;
     }
+}
+
+.btn, .navbar, select, select.form-control, .panel, .panel-heading {
+    border-radius: 0
 }

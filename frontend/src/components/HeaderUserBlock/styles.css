@@ -1,0 +1,83 @@
+.header-user {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-basis: 1px;
+}
+
+    .header-user .header-user-inner {
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        padding-left: 10px;
+        min-width: 175px;
+    }
+    .header-user .header-user-inner:hover {
+        color: #ffffff;
+        background-color: #15a589;
+    }
+
+        .header-user .header-user-inner .header-user-link {
+            vertical-align: middle;
+            line-height: 1.1em;
+            display: inline-flex;
+            align-items: center;
+            margin: 8px 0;
+            font-style: italic;
+            color: white;
+        }
+        .header-user .header-user-inner .header-user-link:hover,
+        .header-user .header-user-inner .header-user-link:focus {
+            text-decoration: none;
+        }
+
+            .header-user-img {
+                padding: 1px;
+                border: 1px solid #eee;
+                width: 55px;
+                height: 55px;
+            }
+            .header-user-img--without-photo {
+                border-radius: 50%;
+                background-color: rgba(255, 255, 255, 0.1);
+                border: 2px solid white;
+            }
+
+            .header-user-caption {
+                padding: 7px;
+            }
+            .header-user-caption--unauthorized {
+                font-size: 1.15em;
+            }
+                .header-user-caption .user-name {
+                    font-size: 1.15em;
+                }
+
+        .header-user-menu.header-user-menu {
+            right: -1px;
+            left: 0;
+            top: calc(100% - 2px);
+            border-radius: 0;
+            border-top: 1px solid #eee;
+        }
+        .header-user-inner:hover .header-user-menu,
+        .header-user-inner:focus .header-user-menu,
+        .header-user-menu:focus,
+        .header-user-menu:hover {
+            display: block;
+        }
+
+        .header-user-menu .dropdown-header {
+            white-space: normal;
+        }
+
+
+
+@media (max-width: 768px) {
+    .header-user {
+        width: 100%;
+        flex-basis: auto !important;
+        border-top: 1px solid white;
+        justify-content: center;
+    }
+}

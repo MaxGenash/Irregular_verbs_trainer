@@ -1,12 +1,14 @@
 import "babel-polyfill";
 import React from "react";
 import {render} from "react-dom";
-import {Router, browserHistory} from "react-router";
-import {routes} from "./routes.jsx";
+import { BrowserRouter } from 'react-router-dom'
 
+import App from './components/App'
 import "./main.css"
 
 render(
-    <Router history={browserHistory} routes={routes} />,
+    <BrowserRouter >
+        <App />
+    </BrowserRouter>,
     document.getElementById('mount-point')
 );
