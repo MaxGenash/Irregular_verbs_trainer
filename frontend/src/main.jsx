@@ -5,10 +5,11 @@ import { BrowserRouter } from 'react-router-dom'
 
 import App from './components/App'
 import "./main.css"
+import { wordsDict } from "./default_words_dict.json"
 
 render(
     <BrowserRouter >
-        <App />
+        <App wordsDict={wordsDict} />
     </BrowserRouter>,
     document.getElementById('mount-point')
 );

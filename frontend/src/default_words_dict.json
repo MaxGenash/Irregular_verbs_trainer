@@ -1,0 +1,179 @@
+{
+  "wordsDict": {
+    "be": {
+      "id": "be",
+      "infinitive": "be",
+      "pastSimple": "was / were",
+      "pastParticiple": "been",
+      "translation": "быть"
+    },
+    "begin": {
+      "id": "begin",
+      "infinitive": "begin",
+      "pastSimple": "began",
+      "pastParticiple": "begun",
+      "translation": "начинать"
+    },
+    "buy": {
+      "id": "buy",
+      "infinitive": "buy",
+      "pastSimple": "bought",
+      "pastParticiple": "bought",
+      "translation": "покупать"
+    },
+    "come": {
+      "id": "come",
+      "infinitive": "come",
+      "pastSimple": "came",
+      "pastParticiple": "come",
+      "translation": "приходить"
+    },
+    "do": {
+      "id": "do",
+      "infinitive": "do",
+      "pastSimple": "did",
+      "pastParticiple": "done",
+      "translation": "делать, выполнять"
+    },
+    "drink": {
+      "id": "drink",
+      "infinitive": "drink",
+      "pastSimple": "drank",
+      "pastParticiple": "drunk",
+      "translation": "пить"
+    },
+    "eat": {
+      "id": "eat",
+      "infinitive": "eat",
+      "pastSimple": "ate",
+      "pastParticiple": "eaten",
+      "translation": "есть"
+    },
+    "fall": {
+      "id": "fall",
+      "infinitive": "fall",
+      "pastSimple": "fell",
+      "pastParticiple": "fallen",
+      "translation": "падать"
+    },
+    "feel": {
+      "id": "feel",
+      "infinitive": "feel",
+      "pastSimple": "felt",
+      "pastParticiple": "felt",
+      "translation": "чувствовать"
+    },
+    "freeze": {
+      "id": "freeze",
+      "infinitive": "freeze",
+      "pastSimple": "froze",
+      "pastParticiple": "frozen",
+      "translation": "замерзать"
+    },
+    "find": {
+      "id": "find",
+      "infinitive": "find",
+      "pastSimple": "found",
+      "pastParticiple": "found",
+      "translation": "находить"
+    },
+    "get": {
+      "id": "get",
+      "infinitive": "get",
+      "pastSimple": "got",
+      "pastParticiple": "got/gotten",
+      "translation": "получать"
+    },
+    "give": {
+      "id": "give",
+      "infinitive": "give",
+      "pastSimple": "gave",
+      "pastParticiple": "given",
+      "translation": "дать, подать"
+    },
+    "go": {
+      "id": "go",
+      "infinitive": "go",
+      "pastSimple": "went",
+      "pastParticiple": "gone",
+      "translation": "идти"
+    },
+    "have": {
+      "id": "have",
+      "infinitive": "have",
+      "pastSimple": "had",
+      "pastParticiple": "had",
+      "translation": "иметь, обладать"
+    },
+    "hear": {
+      "id": "hear",
+      "infinitive": "hear",
+      "pastSimple": "heard",
+      "pastParticiple": "heard",
+      "translation": "слышать"
+    },
+    "make": {
+      "id": "make",
+      "infinitive": "make",
+      "pastSimple": "made",
+      "pastParticiple": "made",
+      "translation": "создавать"
+    },
+    "meet": {
+      "id": "meet",
+      "infinitive": "meet",
+      "pastSimple": "met",
+      "pastParticiple": "met",
+      "translation": "встречать"
+    },
+    "say": {
+      "id": "say",
+      "infinitive": "say",
+      "pastSimple": "said",
+      "pastParticiple": "said",
+      "translation": "говорить"
+    },
+    "see": {
+      "id": "see",
+      "infinitive": "see",
+      "pastSimple": "saw",
+      "pastParticiple": "seen",
+      "translation": "видеть"
+    },
+    "send": {
+      "id": "send",
+      "infinitive": "send",
+      "pastSimple": "sent",
+      "pastParticiple": "sent",
+      "translation": "посылать"
+    },
+    "show": {
+      "id": "show",
+      "infinitive": "show",
+      "pastSimple": "showed",
+      "pastParticiple": "shown / showed",
+      "translation": "показывать"
+    },
+    "take": {
+      "id": "take",
+      "infinitive": "take",
+      "pastSimple": "took",
+      "pastParticiple": "taken",
+      "translation": "брать"
+    },
+    "think": {
+      "id": "think",
+      "infinitive": "think",
+      "pastSimple": "thought",
+      "pastParticiple": "thought",
+      "translation": "думать"
+    },
+    "write": {
+      "id": "write",
+      "infinitive": "write",
+      "pastSimple": "wrote",
+      "pastParticiple": "written",
+      "translation": "писать"
+    }
+  }
+}

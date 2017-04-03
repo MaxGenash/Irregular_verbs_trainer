@@ -20,7 +20,10 @@ export default class Test extends Component {
     // };
 
     render() {
-        let componentClasssName = classNames({"hidden": !this.props.show});
+        let componentClasssName = classNames({
+            "hidden": !this.props.show,
+            "study-box-test": true
+        });
 
         return (
             <div className={componentClasssName}>

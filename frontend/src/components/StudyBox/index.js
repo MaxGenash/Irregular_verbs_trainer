@@ -28,11 +28,11 @@ export default class StudyBox extends Component {
 
     render() {
         return (
-            <div className=''>
-                <h1 className=''> StudyBox </h1>
+            <div className='study-box'>
                 <Theory
                     show={!this.state.showTest}
                     startTest={this.startTest}
+                    wordsDict={this.props.wordsDict}
                 />
                 <Test
                     show={this.state.showTest}
