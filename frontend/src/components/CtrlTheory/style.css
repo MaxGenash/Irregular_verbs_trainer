@@ -1,0 +1,19 @@
+.ctrl-theory-tbl {
+
+}
+
+    .ctrl-theory-tbl td {
+        vertical-align: middle !important;
+        padding: 3px 7px;
+    }
+
+.ctrl-theory-form {
+
+}
+
+    .ctrl-theory-form__inp.ctrl-theory-form__inp {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-radius: 0;
+    }

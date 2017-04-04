@@ -30,7 +30,7 @@ export default function TestForm(props) {
                 Заповніть пропуски вставляючи правильні форми дієслів:
             </h4>
             <div className="table-responsive">
-                <table className="table table-bordered test-verbs-tbl">
+                <table className="table table-bordered table-centred test-verbs-tbl">
                     <thead>
                     <tr>
                         <th title="Номер у списку">

@@ -23,3 +23,9 @@ body {
 .btn, .navbar, select, select.form-control, .panel, .panel-heading {
     border-radius: 0
 }
+
+
+.table-centred {
+    width: auto !important;
+    margin: 0 auto;
+}

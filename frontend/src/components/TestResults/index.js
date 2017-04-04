@@ -61,7 +61,7 @@ export default function TestResults(props) {
                 Результати тесту: {" " + Math.round(overallResNum)} %
             </h4>
             <div className="table-responsive">
-                <table className="table table-bordered test-verbs-tbl">
+                <table className="table table-bordered table-centred test-verbs-tbl">
                     <thead>
                     <tr>
                         <th title="Номер у списку">

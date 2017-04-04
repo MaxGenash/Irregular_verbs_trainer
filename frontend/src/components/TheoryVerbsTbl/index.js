@@ -22,7 +22,7 @@ export default class TheoryVerbsTbl extends Component {
 
         return (
             <div className="table-responsive">
-                <table className="table table-hover table-bordered theory-verbs-tbl">
+                <table className="table table-hover table-bordered theory-verbs-tbl table-centred">
                     <thead>
                     <tr>
                         <th title="Номер у списку">
