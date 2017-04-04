@@ -16,7 +16,6 @@ export default class AdminBox extends Component {
     render() {
         return (
             <div className=''>
-                <h1> AdminBox </h1>
                 <Redirect exact from="/admin" to='/admin/ctrl-theory' />
                 <Route path="/admin/users" component={Users} />
                 <Route path="/admin/ctrl-theory" component={CtrlTheory} />

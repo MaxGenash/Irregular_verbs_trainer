@@ -1,0 +1,52 @@
+{
+  "users": {
+    "user": {
+      "isAdmin": false,
+      "login": "user",
+      "password": "123",
+      "userName": "Максим",
+      "wordsProgress": {
+        "be": {
+          "correct": 5,
+          "wrong": 1
+        },
+        "come": {
+          "correct": 1,
+          "wrong": 3
+        },
+        "do": {
+          "correct": 2,
+          "wrong": 2
+        },
+        "drink": {
+          "correct": 0,
+          "wrong": 1
+        }
+      }
+    },
+    "admin": {
+      "isAdmin": true,
+      "login": "admin",
+      "password": "123",
+      "userName": "Адміністратор",
+      "wordsProgress": {
+        "be": {
+          "correct": 5,
+          "wrong": 1
+        },
+        "come": {
+          "correct": 1,
+          "wrong": 3
+        },
+        "do": {
+          "correct": 2,
+          "wrong": 2
+        },
+        "drink": {
+          "correct": 0,
+          "wrong": 1
+        }
+      }
+    }
+  }
+}

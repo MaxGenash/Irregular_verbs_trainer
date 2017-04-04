@@ -91,16 +91,20 @@ export default class StudyBox extends Component {
         });
 
         testResults = this.state.testData.map(el => {
-            //TODO змінювати ще загальні результати по прогресу слів користувача і усіх слів
+            let pastSimpleInpIsRight = el.pastSimple === tmpInpObj[el.id].pastSimpleInpVal,
+                pastParticipleInpIsRight = el.pastParticiple === tmpInpObj[el.id].pastParticipleInpVal;
             return {
                 ...el,
                 ...tmpInpObj[el.id],    //дописуємо до вихідних даних ще результати які ввів користувач
-                pastSimpleInpIsRight: el.pastSimple === tmpInpObj[el.id].pastSimpleInpVal,
-                pastParticipleInpIsRight: el.pastParticiple === tmpInpObj[el.id].pastParticipleInpVal,
+                pastSimpleInpIsRight,
+                pastParticipleInpIsRight
             }
         });
 
         console.log("testResults = ", testResults);
+
+        //оновлюємо прогрес користувача
+        this.props.updateUserWordsProgress(testResults);
 
         this.setState({
             testIsFinished: true,
