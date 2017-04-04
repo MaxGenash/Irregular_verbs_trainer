@@ -11,9 +11,9 @@ export default function Navbar(props) {
             {
                 props.user && props.user.isAuthenticated && (
                     [
-                        <NavbarItem to='/statistics' key="1">
+                       /* <NavbarItem to='/statistics' key="1">
                             Статистика
-                        </NavbarItem>,
+                        </NavbarItem>,*/
                         <NavbarItem to='/study' key="2">
                             Навчання
                         </NavbarItem>
